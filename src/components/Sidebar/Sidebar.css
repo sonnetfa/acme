@@ -1,0 +1,62 @@
+.acme-sidebar{
+    min-height: 100vh;
+    background: #3C3B54;
+    width: calc(16.66% + 25px)
+}
+
+@media(max-width: 48rem) {
+    .acme-sidebar{
+        width:100%
+    }
+}
+.acme-sidebar-heading{
+    color: #ffffff;
+    letter-spacing: 0.3rem;
+}
+.sidebar-link-item{
+    background: #43425D 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    text-decoration: none;
+}
+.sidebar-link-item:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.icon-home::before{
+    content: "\f015";
+}
+.icon-home{
+    color: #ffffff;
+}
+.active-links{
+    background: #3C3B54;
+    border-left:3px solid #A3A0FB;
+}
+.active-links span{
+    color: #A3A0FB;
+}
+.active-links .badge{
+    color: #ffffff;
+}
+.icon-dashboard::before{
+    content: "\f080";
+}
+.icon-inbox::before{
+    content: "\f01c";
+}
+.icon-product::before{
+    content: "\f1ea";
+}
+.icon-admin::before{
+    content: "\f013";
+}
+.badge-danger{    
+    color: #fff;
+    background-color: #dc3545;
+    margin-left: 3rem;
+}
+.badge-pill{    
+    padding-right: .6em !important;
+    padding-left: .6em !important;
+    border-radius: 10rem !important;
+}

@@ -1,0 +1,11 @@
+.product-video-header{
+    color: #4D4F5C;
+}
+.product-video-tab{
+    margin: 1rem;
+}
+@media(max-width: 48rem) {
+    .product-video-tab{
+        margin-right: 0 !important;
+    }
+}

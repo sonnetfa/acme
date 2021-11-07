@@ -1,0 +1,57 @@
+.header-acme{
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #0000000A;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 1;
+    padding: 20px;
+    display: flex;
+}
+.hamburger-icon::before{
+    content: "\f036";
+    color: #A4AFB7;
+    cursor: pointer;
+}
+.notification-icon::before{
+    content: "\f0f3";
+    color: #A4AFB7;
+    cursor: pointer;
+}
+.icon-down::before{
+    content: "\f078";
+    color: #A4AFB7;
+    cursor: pointer;
+}
+.icon-up::before{
+    content: "\f077";
+    color: #A4AFB7;
+    cursor: pointer;
+}
+.icme-search::before{
+    content: "\f002";
+    color: #A4AFB7;
+    cursor: pointer;
+}
+.icme-search{
+    padding-left: 2.5rem;
+}
+.icme-search,.icme-search:focus-visible,.icme-search:focus{
+    border: none !important;
+    outline: none;
+}
+.user-thumbnail{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.icon-search{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    margin-left: 1rem;
+    background-image: url(../../images/search-icon.svg);
+}
+.popover-arrow{
+    opacity: 0;
+}

@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.route-pages{
+  min-height: calc(100vh - 70px) !important;
+  background: #F5F7FB;
+}
+.negative-margin{
+  margin-left: -25px !important;
+}
+
+.float-right{
+  float: right;
+}

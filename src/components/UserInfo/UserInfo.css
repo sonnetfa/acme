@@ -1,0 +1,61 @@
+.profile-image{
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+.user-name{
+    color: #4D4F5C;
+}
+.user-country{
+    color: #43425D;
+    opacity: 50% ;
+}
+.twitter-icon::before{
+    content: "\f099";
+}
+.facebook-icon::before{
+    content: "\f09a";
+}
+.linkedin-icon::before{
+    content: "\f08c";
+}
+.whatsapp-icon::before{
+    content: "\f232";
+}
+.social-media-icons span{
+    font-size: 1rem;
+    color: #A4AFB7;
+    padding: 0.5rem;
+}
+.other-user-heading ,.icon-ellipsis{
+    color: #4D4F5C;
+}
+.icon-ellipsis::before{
+    content: "\f142";
+}
+.other-user-profile-pic{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.other-user-name{
+    color: #4D4F5C;
+}
+.other-user-country{
+    color: #43425D;
+    opacity: 50%;
+}
+.other-user-phone{
+    color: #43425D;
+    opacity: 50%;
+    margin-left: auto;
+}
+@media(max-width: 48rem) {
+    .user-info-tab{
+        margin-bottom: 1rem !important;
+        margin-right: 0 !important;
+    }
+}
+.user-info-tab{
+    margin: 0 1rem;
+}

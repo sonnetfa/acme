@@ -1,0 +1,16 @@
+
+.profile-icon::before{
+    content: "\f007";
+    color: #4D4F5C;
+}
+.billing-icon::before{
+    content: "\f0d6";
+    color: #4D4F5C;
+}
+.logout-icon::before{
+    content: "\f08b";
+    color: #4D4F5C;
+}
+.profile-action span{
+    color: #43425D;
+}

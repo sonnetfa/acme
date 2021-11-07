@@ -1,0 +1,34 @@
+.statistics-head{
+    color: #4D4F5C;
+}
+.products-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: rgb(128, 226, 255);
+}
+.total-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background:#B5B3FB;
+}
+.y-legend{
+    color: #4D4F5C;
+    opacity: 50%;    
+    font-size: 0.9rem;
+}
+.statistics-chart{
+    margin-top: 1rem
+}
+.statistics{
+    width: 50%;
+}
+
+@media(max-width: 48rem) {
+    .statistics{
+        width: 100%;
+    }
+}

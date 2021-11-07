@@ -1,0 +1,26 @@
+
+.other-user-profile-pic{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.other-user-name{
+    color: #4D4F5C;
+}
+.other-user-desc{
+    color: #43425D;
+    opacity: 50%;
+    font-size: 0.7rem;
+}
+.other-user-time{
+    color: #43425D;
+    opacity: 50%;
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+.show-more-tab span{
+    color: #3B86FF;
+    font-size: 0.8rem;
+    border-top:1px solid #5565750F;
+    cursor: pointer;
+}

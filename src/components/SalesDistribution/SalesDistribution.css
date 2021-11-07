@@ -1,0 +1,52 @@
+.sales-distribution-head{
+    color: #4D4F5C;
+}
+.country-legend{
+    color: #43425D;
+    font-size: 0.9rem;
+}
+.sales-legend{
+    margin-right: 0.5rem;
+    color: #4D4F5C;
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+.france-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: rgb(128, 226, 255);
+}
+.italy-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: rgb(244, 159, 168);
+}
+.japan-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: rgb(255, 223, 148);
+}
+.canada-legend{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    background: rgb(181, 179, 251);
+}
+.sales-distribution{
+    width: 50%;
+}
+
+@media(max-width: 48rem) {
+    .sales-distribution{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
