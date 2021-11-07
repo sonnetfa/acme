@@ -4,9 +4,6 @@ import firstimg from './../../images/profile-pic-02.jpg'
 import secondimg from './../../images/profile-pic-06.jpg'
 import thirdimg from './../../images/profile-pic-05.jpg'
 class Notification extends React.Component {
-    // constructor(props){
-    //     super(props);
-    // }
     render() {
         return (
             <div className="notifications" >

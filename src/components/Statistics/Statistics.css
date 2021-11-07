@@ -6,14 +6,14 @@
     width: 0.5rem;
     border-radius: 50%;
     margin-top: 0.4rem;
-    background: rgb(128, 226, 255);
+    background:#B5B3FB;
 }
 .total-legend{
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50%;
     margin-top: 0.4rem;
-    background:#B5B3FB;
+    background: rgb(128, 226, 255);
 }
 .y-legend{
     color: #4D4F5C;

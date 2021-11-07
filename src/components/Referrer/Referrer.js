@@ -1,9 +1,6 @@
 import React from "react";
 import './Referrer.css'
 class Referrer extends React.Component {
-    // constructor(props){
-    //     super(props);
-    // }
     render() {
         return (
             <div className="referrer-tab p-3 dashboard-tabs">

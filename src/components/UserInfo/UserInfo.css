@@ -59,3 +59,25 @@
 .user-info-tab{
     margin: 0 1rem;
 }
+.other-users{
+    border-top: 1px solid #F0F4F7;
+}
+.profile-image-holder{
+    position: relative;
+}
+.edit-profile-pic{
+    position: absolute;
+    bottom: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    left:calc(50% + 1rem) ;
+    border-radius: 50%;
+    background: #6763E3;
+    border: 2px solid #ffffff;
+}
+.edit-icon::before{
+    content: "\f040";
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+}

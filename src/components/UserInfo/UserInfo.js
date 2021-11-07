@@ -5,18 +5,18 @@ import firstimg from './../../images/profile-pic-03.jpg'
 import secondimg from './../../images/profile-pic-02.jpg'
 import thirdimg from './../../images/profile-pic-04.jpg'
 class UserInfo extends React.Component {
-    // constructor(props){
-    //     super(props);
-    // }
     render() {
         return (
             <div className=" dashboard-tabs user-info-tab" >
                 <div className="d-flex justify-content-center p-3">
                     <div>
-                        <div className="d-flex justify-content-center ">
+                        <div className="d-flex justify-content-center profile-image-holder">
                             <img className="profile-image" alt="Avatar" src={profileImage}></img>
+                            <div className="edit-profile-pic d-flex justify-content-center">
+                                <span className="fa edit-icon" >
+                               </span></div>
                         </div>
-                        <span className="d-flex justify-content-center user-name">Nick Herasimenka</span> 
+                        <span className="d-flex justify-content-center user-name">Nick Herasimenka</span>
                         <span className="d-flex justify-content-center user-country">United States</span>
                         <div className="d-flex justify-content-center social-media-icons">
                             <span className="fa twitter-icon"></span>
