@@ -8,7 +8,7 @@
 }
 .user-country{
     color: #43425D;
-    opacity: 50% ;
+    opacity: 0.5 ;
 }
 .twitter-icon::before{
     content: "\f099";
@@ -43,11 +43,11 @@
 }
 .other-user-country{
     color: #43425D;
-    opacity: 50%;
+    opacity: 0.5;
 }
 .other-user-phone{
     color: #43425D;
-    opacity: 50%;
+    opacity: 0.5;
     margin-left: auto;
 }
 @media(max-width: 48rem) {

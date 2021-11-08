@@ -9,12 +9,12 @@
 }
 .other-user-desc{
     color: #43425D;
-    opacity: 50%;
+    opacity: 0.5;
     font-size: 0.7rem;
 }
 .other-user-time{
     color: #43425D;
-    opacity: 50%;
+    opacity: 0.5;
     margin-left: auto;
     font-size: 0.7rem;
 }
