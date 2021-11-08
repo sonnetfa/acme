@@ -32,7 +32,7 @@ class UserInfo extends React.Component {
                         <span className="float-right fa icon-ellipsis py-2"></span>
                     </div>
                     <div className="p-3 d-flex">
-                        <div className="other-user-image">
+                        <div className="other-user-image py-2">
                             <img className="other-user-profile-pic" alt="Avatar" src={firstimg}></img>
                         </div>
                         <div>
@@ -43,7 +43,7 @@ class UserInfo extends React.Component {
 
                     </div>
                     <div className="p-3 d-flex">
-                        <div className="other-user-image">
+                        <div className="other-user-image py-2">
                             <img className="other-user-profile-pic" alt="Avatar" src={secondimg}></img>
                         </div>
                         <div>
@@ -54,7 +54,7 @@ class UserInfo extends React.Component {
 
                     </div>
                     <div className="p-3 d-flex">
-                        <div className="other-user-image">
+                        <div className="other-user-image py-2">
                             <img className="other-user-profile-pic" alt="Avatar" src={thirdimg}></img>
                         </div>
                         <div>
