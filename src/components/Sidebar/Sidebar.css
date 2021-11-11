@@ -14,6 +14,7 @@
     letter-spacing: 0.3rem;
 }
 .sidebar-link-item{
+    border-left: 3px solid transparent;
     background: #43425D 0% 0% no-repeat padding-box;
     color: #ffffff;
     text-decoration: none;
@@ -59,4 +60,8 @@
     padding-right: .6em !important;
     padding-left: .6em !important;
     border-radius: 10rem !important;
+}
+.margin-filler{
+    min-width: 25px;
+    opacity: 0;
 }

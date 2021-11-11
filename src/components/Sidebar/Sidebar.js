@@ -14,7 +14,8 @@ class Sidebar extends React.Component {
                             <span className="fa icon-dashboard px-2 py-1"></span>Dashboard</NavLink>
                         <NavLink className="sidebar-link-item p-3 w-100 d-flex" activeClassName="active-links" to="/inbox" exact>
                             <span className="fa icon-inbox px-2 py-1"></span>Inbox
-                            <span className="badge badge-danger badge-pill float-right">New</span></NavLink>
+                            <span className="badge badge-danger badge-pill float-right">New</span>
+                            <span className="margin-filler"></span></NavLink>
                         <NavLink className="sidebar-link-item p-3 w-100 d-flex" activeClassName="active-links" to="/products" exact>
                             <span className="fa icon-product px-2 py-1"></span>Products</NavLink>
                         <NavLink className="sidebar-link-item p-3 w-100 d-flex" activeClassName="active-links" to="/admin" exact>
