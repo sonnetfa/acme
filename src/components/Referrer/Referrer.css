@@ -33,7 +33,7 @@
 }
 .referrer-tab{
     margin: 1rem 0 1rem 1rem;
-    overflow: scroll;
+    overflow: auto;
 }
 .show-more{
     color: #3B86FF;
